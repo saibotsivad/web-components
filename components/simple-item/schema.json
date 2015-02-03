@@ -1,0 +1,31 @@
+{
+	"title": "Simple Item",
+	"type": "object",
+	"properties": {
+		"imageUrl": {
+			"description": "URL to the item image.",
+			"type": "string"
+		},
+		"title": {
+			"description": "Shorter description of item.",
+			"type": "string"
+		},
+		"pricePerEach": {
+			"description": "The price of the item.",
+			"type": "number"
+		},
+		"each": {
+			"description": "If you say '$3/shirt', this would be 'shirt'.",
+			"type": "string"
+		},
+		"addToCart": {
+			"description": "Interactive message HTML to add item to shopping cart.",
+			"type": "string"
+		},
+		"description": {
+			"description": "Longer HTML description of the product.",
+			"type": "string"
+		}
+	},
+	"required": [ "title", "pricePerEach", "addToCart" ]
+}
