@@ -52,6 +52,11 @@ elements) and making each "card" into a "module" thing.
 
 As it goes, maybe you'll see a way to abstract things into modules in a more logical way.
 
+# Links that are related?
+
+I put it in [a wiki](https://github.com/saibotsivad/web-components/wiki/Related-Links) so other
+people could add their own links without needing to make pull requests and stuff.
+
 # License
 
 Not that many people will be reading this, but in case you find something useful:
