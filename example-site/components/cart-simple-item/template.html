@@ -1,0 +1,11 @@
+<article>
+	{{#imageUrl}}<img src="{{imageUrl}}">{{/imageUrl}}
+	<h1>{{title}}</h1>
+	{{#description}}<p class="description">{{{description}}}</p>{{/description}}
+	<p class="pricing">
+		<span class="price">${{pricePerEach}}</span>
+		{{#each}}<span class="each"><span class="divide"></span>{{each}}</span>{{/each}}
+		<span class="quantity-text">{{{quantityText}}}</span>
+		<span class="quantity">{{quantity}}</span>
+	</p>
+</article>

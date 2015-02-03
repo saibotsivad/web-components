@@ -1,0 +1,52 @@
+{
+	"title": "Detailed Item",
+	"type": "object",
+	"properties": {
+		"images": {
+			"description": "List of item images.",
+			"type": "array",
+			"minItems": 1,
+			"altText": {
+				"type": "string",
+				"description": "Used for a caption or alt-text on the image."
+			},
+			"url": {
+				"type": "string",
+				"description": "URL to this image."
+			}
+		},
+		"title": {
+			"description": "Shorter description of item.",
+			"type": "string"
+		},
+		"pricePerEach": {
+			"description": "The price of the item.",
+			"type": "number"
+		},
+		"each": {
+			"description": "If you say '$3/shirt', this would be 'shirt'.",
+			"type": "string"
+		},
+		"quantityText": {
+			"description": "HTML-able message that says something like 'Quantity:'.",
+			"type": "string"
+		},
+		"quantity": {
+			"description": "Optional default integer quantity of item.",
+			"type": "integer"
+		},
+		"addToCartText": {
+			"description": "Interactive message HTML to add item to shopping cart, e.g. 'Add to Cart'.",
+			"type": "string"
+		},
+		"subtitle": {
+			"description": "Optional short intro text description of the product.",
+			"type": "string"
+		},
+		"content": {
+			"description": "HTML-able long description of the product.",
+			"type": "string"
+		}
+	},
+	"required": [ "title", "pricePerEach", "quantityText", "quantity", "addToCartText", "content" ]
+}

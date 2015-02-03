@@ -1,0 +1,39 @@
+{
+	"title": "Simple Cart Item",
+	"type": "object",
+	"properties": {
+		"imageUrl": {
+			"description": "URL to the item image.",
+			"type": "string"
+		},
+		"title": {
+			"description": "Shorter description of item.",
+			"type": "string"
+		},
+		"description": {
+			"description": "Longer HTML-able description of the product.",
+			"type": "string"
+		},
+		"pricePerEach": {
+			"description": "The price of the item.",
+			"type": "number"
+		},
+		"each": {
+			"description": "If you say '$3/shirt', this would be 'shirt'.",
+			"type": "string"
+		},
+		"quantityText": {
+			"description": "HTML-able message that says something like 'Quantity:'.",
+			"type": "string"
+		},
+		"quantityText": {
+			"description": "HTML-able message that says something like 'Quantity:'.",
+			"type": "string"
+		},
+		"quantity": {
+			"description": "Integer quantity of items in the cart.",
+			"type": "integer"
+		}
+	},
+	"required": [ "title", "pricePerEach", "quantityText", "quantity" ]
+}

@@ -1,0 +1,26 @@
+<article>
+	<section class="image-list">
+		<ul>
+		{{#images}}
+			<li><img alt="{{altText}}" src="{{url}}"></li>
+		{{/images}}
+		</ul>
+	</section>	
+	<section class="item-information">
+		<h1>{{title}}</h1>
+		<p class="pricing">
+			${{pricePerEach}}
+			{{#each}}
+				<span class="divide">/</span>{{each}}
+			{{/each}}
+			<span class="input-group">
+				<span class="quantity-text">{{{quantityText}}}<input type="text" class="quantity" value="{{quantity}}"></span>
+				<span class="add-to-cart">{{{addToCartText}}}</span>
+			</span>
+		</p>
+	</section>
+	<section class="item-description">
+		{{#subtitle}}<h2>{{subtitle}}</h2>{{/subtitle}}
+		{{{content}}}
+	</section>
+</article>
