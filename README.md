@@ -3,7 +3,7 @@
 Some ideas I am kicking around for making websites with shopping carts very modular.
 
 So based on [this idea](https://medium.com/@intercom/why-cards-are-the-future-of-the-web-d3f6ce8b843a) and a few
-other randomw things I've been kicking around, I thought I'd try assembling a bunch of components a person might
+other random things I've been kicking around, I thought I'd try assembling a bunch of components a person might
 need in order to put together a commerce-type website easily.
 
 Of course there's a build system and whatnot, but what I'm really trying to think through is the idea
