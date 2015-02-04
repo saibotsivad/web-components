@@ -33,6 +33,10 @@
 		"quantity": {
 			"description": "Integer quantity of items in the cart.",
 			"type": "integer"
+		},
+		"removeText": {
+			"description": "HTML-able message that says something like 'Remove Item.'",
+			"type": "string"
 		}
 	},
 	"required": [ "title", "pricePerEach", "quantityText", "quantity" ]

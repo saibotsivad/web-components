@@ -1,0 +1,25 @@
+{
+	"title": "Cart Simple Item List",
+	"type": "object",
+	"properties": {
+		"title": {
+			"description": "Main header of cart list, e.g. 'Shopping Cart'.",
+			"type": "string"
+		},
+		"itemCountText": {
+			"description": "HTML-able message saying how many are in the cart. E.g., 'You have 7 items.'",
+			"type": "string"
+		},
+		"items": {
+			"description": "List of item objects.",
+			"type": "array",
+			"minItems": 0
+		},
+		"cartItem": {
+			"type": "template",
+			"template": "cart-simple-item",
+			"element": "item"
+		}
+	},
+	"required": [ "title", "itemCountText", "items" ]
+}

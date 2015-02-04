@@ -1,5 +1,5 @@
 <article>
-	{{#imageUrl}}<img src="{{imageUrl}}">{{/imageUrl}}
+	{{#imageUrl}}<img src="{{{imageUrl}}}">{{/imageUrl}}
 	<h1>{{title}}</h1>
 	{{#description}}<p class="description">{{{description}}}</p>{{/description}}
 	<p class="pricing">
@@ -8,4 +8,5 @@
 		<span class="quantity-text">{{{quantityText}}}</span>
 		<span class="quantity">{{quantity}}</span>
 	</p>
+	<p class="remove-item">{{{removeText}}}</p>
 </article>

@@ -1,0 +1,10 @@
+{
+	"imageUrl": "./test.jpg",
+	"title": "Item",
+	"description": "Some <em>amazing</em> words.",
+	"pricePerEach": 17.39,
+	"each": "per item",
+	"quantityText": "<strong>Buy</strong>",
+	"quantity": 3,
+	"removeText": "Remove"
+}

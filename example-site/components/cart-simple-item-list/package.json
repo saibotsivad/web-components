@@ -1,0 +1,12 @@
+{
+	"name": "cart-simple-item-list",
+	"version": "0.0.1",
+	"main": "script.js",
+	"schema": "schema.json",
+	"template": "template.html",
+	"description": "Display a list of simple cart items.",
+	"license": "VOL",
+	"templateDependencies": {
+		"cart-simple-item": "0.0.1"
+	}
+}
